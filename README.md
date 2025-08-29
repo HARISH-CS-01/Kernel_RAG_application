@@ -32,7 +32,7 @@ ollama pull llama2
 ```
 ## ⚡ Quickstart
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/your-username/Kernel_RAG_application.git
 cd Kernel_RAG_application
@@ -45,5 +45,6 @@ pip install -r requirements.txt
 3️⃣ Run the application
 
 python Kernel_rag_modules.py
+
 
 

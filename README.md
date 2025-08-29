@@ -20,11 +20,6 @@ This project demonstrates how to build a knowledge-based chatbot with **custom r
 ---
 
 
----
-
-
----
-
 ## ⚡ Prerequisites
 Before running the application, ensure the following are installed:
 
@@ -49,3 +44,4 @@ pip install -r requirements.txt
 3️⃣ Run the application
 
 python Kernel_rag_modules.py
+

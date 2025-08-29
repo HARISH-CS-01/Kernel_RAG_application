@@ -1,0 +1,23 @@
+
+services:
+    ollama:
+        build:
+            context: ./ollama/
+        container_name: ollama-server
+        environment:
+            - OLLAMA_HOST=0.0.0.0
+        ports:
+          - "11434:11434"
+        volumes:
+          - ollama_data:/root/.ollama
+
+    rag:
+      image: rag_app
+      container_name: rag_pipeline
+      depends_on:
+        - ollama
+      environment:
+        - OLLAMA_HOST=http://ollama:11434
+
+volumes:
+    ollama_data:

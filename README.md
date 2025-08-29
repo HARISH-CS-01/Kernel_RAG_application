@@ -28,7 +28,8 @@ Before running the application, ensure the following are installed:
 ```bash
 ollama pull llama2
 
-
+---
+```
 ## ⚡ Quickstart
 
 ### 1️⃣ Clone the repository
@@ -44,4 +45,5 @@ pip install -r requirements.txt
 3️⃣ Run the application
 
 python Kernel_rag_modules.py
+
 
